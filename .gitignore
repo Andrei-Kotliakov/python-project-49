@@ -1,3 +1,4 @@
 poetry.lock
 .venv
 dist/
+.cpython-310.pyc
