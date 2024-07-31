@@ -19,17 +19,21 @@ def main():
             print('Correct!')
             tries_count -= 1
         elif (answer == 'yes' and random_num % 2 != 0):
-            print(f'"yes" is wrong answer ;(. Correct answer was "no".\nLet\'s try again, {name}!')
+            print(f'"yes" is wrong answer ;(. Correct answer was "no"')
+            print(f'Let\'s try again, {name}!')
             break
         elif (answer == 'no' and random_num % 2 == 0):
-            print(f'"no" is wrong answer ;(. Correct answer was "yes".\nLet\'s try again, {name}!')
+            print(f'"no" is wrong answer ;(. Correct answer was "yes".')
+            print(f'Let\'s try again, {name}!')
             break
         else:
             if random_num % 2 == 0:
-                print(f'"{answer}" is wrong answer ;(. Correct answer was "yes".\nLet\'s try again, {name}!')
+                print(f'"{answer}" is wrong answer ;(. Correct answer was "yes".')
+                print(f'Let\'s try again, {name}!')
                 break
             else:
-                print(f'"{answer}" is wrong answer ;(. Correct answer was "no".\nLet\'s try again, {name}!')
+                print(f'"{answer}" is wrong answer ;(. Correct answer was "no".')
+                print(f'Let\'s try again, {name}!')
                 break
     else:
         print(f'Congratulations, {name}!')
