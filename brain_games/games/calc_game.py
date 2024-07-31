@@ -1,4 +1,3 @@
-import random
 from random import randint
 from random import choice
 
@@ -16,6 +15,3 @@ def information():
     else:
         correct_answer = num_1 * num_2
     return question, str(correct_answer)
-
-
-
