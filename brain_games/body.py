@@ -15,10 +15,8 @@ def play(calculator):
             print('Correct')
             tries_count -= 1
         else:
-            print(f'{answer} is wrong answer ;(. Correct answer was {correct_answer}. Let\'s try again, {name}!')
+            print(f'{answer} is wrong answer ;(.')
+            print(f'Correct answer was {correct_answer}.')
+            print(f'Let\'s try again, {name}!')
             return
     print(f'Congratulations, {name}!')
-
-        
-
-
