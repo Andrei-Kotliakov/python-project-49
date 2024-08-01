@@ -29,12 +29,12 @@ def main():
         else:
             if random_num % 2 == 0:
                 print(f'"{answer}" is wrong answer ;(. '
-                      f'Correct answer was "yes".')
+                      f'Correct answer was {"yes"}.')
                 print(f'Let\'s try again, {name}!')
                 break
             else:
                 print(f'"{answer}" is wrong answer ;(. '
-                      f'Correct answer was "no".')
+                      f'Correct answer was {"no"}.')
                 print(f'Let\'s try again, {name}!')
                 break
     else:
