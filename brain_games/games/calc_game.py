@@ -2,6 +2,9 @@ from random import randint
 from random import choice
 
 
+THEME = 'What is the result of the expression?'
+
+
 def information():
     num_1 = randint(1, 10)
     num_2 = randint(1, 10)
