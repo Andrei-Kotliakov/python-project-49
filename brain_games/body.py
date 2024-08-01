@@ -1,5 +1,4 @@
 import prompt
-from brain_games.games import calc_game
 
 
 def play(game):
@@ -17,7 +16,7 @@ def play(game):
             tries_count -= 1
         else:
             print(f"'{answer}' is wrong answer ;(."
-                f"Correct answer was '{correct_answer}'.")
+                  f"Correct answer was '{correct_answer}'.")
             print(f'Let\'s try again, {name}!')
             return
     print(f'Congratulations, {name}!')
