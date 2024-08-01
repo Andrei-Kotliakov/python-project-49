@@ -3,3 +3,4 @@ poetry.lock
 dist/
 *.pyc
 demo.cast
+__pycache__
