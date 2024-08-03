@@ -4,12 +4,12 @@ version = "0.1.0"
 description = "Brain Games: tutorial of 5-th mini-games"
 authors = ["Andrei-Kotliakov <andreikotliakov@yandex.ru>"]
 readme = "README.md"
-packages = [ { include = "brain_games" }, ]
+packages = [ { include = "brain_games" } ]
 repository = "https://github.com/Andrei-Kotliakov/python-project-49"
 classifiers = [
-	"Natural Language :: Englis"
-	"Programming Language :: Python :: 3.10"
-	"Topic :: Education"
+	"Natural Language :: Englis",
+	"Programming Language :: Python :: 3.10",
+	"Topic :: Education",
 ]
 
 
