@@ -20,3 +20,7 @@ GCD-game:
 
 Progression-game:
 <a href="https://asciinema.org/a/mMjfqZi2wgizodFJ2AV2gaDnc" target="_blank"><img src="https://asciinema.org/a/mMjfqZi2wgizodFJ2AV2gaDnc.svg" /></a>
+
+
+Prime-game:
+<a href="https://asciinema.org/a/Kg1LiSNpE2pSjg0jrPi6e34T0" target="_blank"><img src="https://asciinema.org/a/Kg1LiSNpE2pSjg0jrPi6e34T0.svg" /></a>
