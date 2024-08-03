@@ -15,7 +15,8 @@ def main():
         random_num = randint(1, 100)
         print(f'Question: {random_num}')
         answer = prompt.string('Your answer: ')
-        if (answer == 'yes' and random_num % 2 == 0) or (answer == 'no' and random_num % 2 != 0):
+        if ((answer == 'yes' and random_num % 2 == 0)
+                or (answer == 'no' and random_num % 2 != 0)):
             print('Correct!')
             tries_count -= 1
         elif (answer == 'yes' and random_num % 2 != 0):
