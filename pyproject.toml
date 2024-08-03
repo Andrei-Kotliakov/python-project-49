@@ -7,16 +7,9 @@ readme = "README.md"
 packages = [ { include = "brain_games" } ]
 repository = "https://github.com/Andrei-Kotliakov/python-project-49"
 classifiers = [
-<<<<<<< HEAD
 	"Natural Language :: Englis",
 	"Programming Language :: Python :: 3.10",
 	"Topic :: Education",
-=======
-	"Natural Language :: English"
-	"Operating System :: Microsoft :: Windows :: Windows 11"
-	"Programming Language :: Python :: 3.10"
-	"Topic :: Education"
->>>>>>> parent of 6555518 (Added information v2)
 ]
 
 
