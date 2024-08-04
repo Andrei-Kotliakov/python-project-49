@@ -4,10 +4,8 @@ from random import randint
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-random_number = randint(2, 100)
-
-
 def is_prime(random_number):
+    random_number = randint(2, 100)
     if random_number == 2:
         return True
     for i in range(2, random_number // 2 + 1):
