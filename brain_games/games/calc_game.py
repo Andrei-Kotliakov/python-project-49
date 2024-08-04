@@ -9,9 +9,10 @@ MATH_OPERATORS = ['+', '-', '*']
 def make_rules():
     num_1 = randint(1, 10)
     num_2 = randint(1, 10)
-    operator = choice(math_operators)
+    operator = choice(MATH_OPERATORS)
     question = (f'{num_1} {operator} {num_2}')
     correct_answer = calculate()
+    return question, correct_answer
 
 
 def calculate(num_1, num_2, operator):
