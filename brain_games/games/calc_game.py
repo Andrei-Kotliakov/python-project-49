@@ -11,7 +11,7 @@ def make_rules():
     num_2 = randint(1, 10)
     operator = choice(MATH_OPERATORS)
     question = (f'{num_1} {operator} {num_2}')
-    correct_answer = calculate()
+    correct_answer = calculate(num_1, num_2, operator)
     return question, correct_answer
 
 
