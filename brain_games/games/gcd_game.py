@@ -5,7 +5,7 @@ import math
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def information():
+def make_rules():
     num_1 = randint(1, 100)
     num_2 = randint(1, 100)
     question = (f'{num_1} {num_2}')

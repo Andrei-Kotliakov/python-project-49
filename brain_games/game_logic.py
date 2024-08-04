@@ -8,7 +8,7 @@ def play(game):
     print(game.DESCRIPTION)
     tries_count = 3
     while tries_count:
-        question, correct_answer = game.information()
+        question, correct_answer = game.make_rules()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == str(correct_answer):

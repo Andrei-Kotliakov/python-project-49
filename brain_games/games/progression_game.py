@@ -4,7 +4,7 @@ from random import randint
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def information():
+def make_rules():
     start = randint(1, 24)
     step = randint(1, 7)
     stop = start + step * 10
