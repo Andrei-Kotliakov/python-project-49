@@ -11,10 +11,14 @@ def make_rules():
     math_operators = ['+', '-', '*']
     operator = choice(math_operators)
     question = (f'{num_1} {operator} {num_2}')
+    correct_answer = str(calculate()
+
+
+def calculate(num_1, num_2, operator):
     if operator == '+':
         correct_answer = num_1 + num_2
     elif operator == '-':
         correct_answer = num_1 - num_2
     else:
         correct_answer = num_1 * num_2
-    return question, str(correct_answer)
+    return correct_answer
