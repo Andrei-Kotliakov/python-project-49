@@ -13,4 +13,4 @@ def make_rules():
     progression[stealth_element] = '..'
     question = (' '.join(map(str, progression)))
     correct_answer = start + step * stealth_element
-    return question, str(correct_answer)
+    return question, correct_answer
