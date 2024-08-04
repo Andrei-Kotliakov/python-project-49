@@ -3,12 +3,12 @@ from random import choice
 
 
 DESCRIPTION = 'What is the result of the expression?'
+MATH_OPERATORS = ['+', '-', '*']
 
 
 def make_rules():
     num_1 = randint(1, 10)
     num_2 = randint(1, 10)
-    math_operators = ['+', '-', '*']
     operator = choice(math_operators)
     question = (f'{num_1} {operator} {num_2}')
     correct_answer = str(calculate()
