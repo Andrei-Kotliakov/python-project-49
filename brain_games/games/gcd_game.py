@@ -2,7 +2,7 @@ from random import randint
 import math
 
 
-THEME = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
 def information():

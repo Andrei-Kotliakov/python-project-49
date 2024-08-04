@@ -2,7 +2,7 @@ from random import randint
 from random import choice
 
 
-THEME = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 
 
 def information():

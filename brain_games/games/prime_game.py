@@ -1,7 +1,7 @@
 from random import randint
 
 
-THEME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 random_number = randint(2, 100)
