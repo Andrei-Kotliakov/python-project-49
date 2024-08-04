@@ -5,10 +5,10 @@
 <a href="https://codeclimate.com/github/Andrei-Kotliakov/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/c4c6a342300a63d47374/maintainability" /></a>
 
 
-"Brain Games is a project, including 5-th mini-games: Brain-game, Even-game, Calculator-game, GCD-game, Progression-game, Prime-game"
+Brain Games is a project, including 5-th mini-games: Brain-game, Even-game, Calculator-game, GCD-game, Progression-game, Prime-game.
 
 
-Dependencies: python = "^3.10", prompt = "^0.4.1"
+Dependencies: Python = ver.3.10, Prompt = ver.0.4.1.
 
 
 Even-game:
