@@ -5,7 +5,7 @@ def play(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.THEME)
+    print(game.DESCRIPTION)
     tries_count = 3
     while tries_count:
         question, correct_answer = game.information()
