@@ -5,7 +5,9 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(random_number):
-    if random_number == 2:
+    if random_number == 1:
+        return False
+    elif random_number == 2:
         return True
     for i in range(2, random_number // 2 + 1):
         if random_number % i == 0:
