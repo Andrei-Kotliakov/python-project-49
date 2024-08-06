@@ -5,7 +5,9 @@ DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def make_rules():
-    """Функция определяет является ли случайное число в диапазоне от 1 до 100 четным/ нечетным."""
+    """Функция определяет является ли случайное число
+    в диапазоне от 1 до 100 четным/ нечетным.
+    """
     question = randint(1, 100)
     if question % 2 == 0:
         correct_answer = 'yes'
