@@ -5,6 +5,7 @@ DESCRIPTION = 'What number is missing in the progression?'
 
 
 def make_rules():
+    """Функция определяет пропущенное чсило в прогрессии случайных чисел."""
     start = randint(1, 24)
     step = randint(1, 7)
     stop = start + step * 10

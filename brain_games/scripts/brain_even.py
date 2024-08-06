@@ -6,6 +6,9 @@ from brain_games.games import even_game
 
 
 def main():
+    """Функция реализует проверку случайного числа
+    на четность в мини-игре Even-game.
+    """
     play(even_game)
 
 

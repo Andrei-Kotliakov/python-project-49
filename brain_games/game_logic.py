@@ -2,6 +2,11 @@ import prompt
 
 
 def play(game):
+    """
+
+    Функция содержит основную логику серии игр Brain-games, включая особенности, такие как:
+    приветствие игрока, вывод задания, вывод результата.
+    """
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')

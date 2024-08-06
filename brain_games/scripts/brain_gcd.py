@@ -6,6 +6,9 @@ from brain_games.games import gcd_game
 
 
 def main():
+    """Функция определяет наибольший общий делитель
+    между двумя случайными числами в мини-игре GCD-game.
+    """
     play(gcd_game)
 
 

@@ -6,6 +6,9 @@ from brain_games.games import calc_game
 
 
 def main():
+    """Функция реализует результат арифметического
+    выражения в мини-игре Calc-game.
+    """
     play(calc_game)
 
 

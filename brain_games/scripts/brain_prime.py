@@ -6,6 +6,9 @@ from brain_games.games import prime_game
 
 
 def main():
+    """Функция определяет является ли случайное число
+    простым в мини-игре Prime-game.
+    """
     play(prime_game)
 
 
