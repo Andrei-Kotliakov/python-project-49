@@ -8,7 +8,7 @@
 Brain Games is a project, including 5-th mini-games: Brain-game, Even-game, Calculator-game, GCD-game, Progression-game, Prime-game.
 
 
-Dependencies: Python = ver.3.10, Prompt = ver.0.4.1.
+Dependencies: Python ver.3.10, Prompt ver.0.4.1.
 
 
 Even-game:
